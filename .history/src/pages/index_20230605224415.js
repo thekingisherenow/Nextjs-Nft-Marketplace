@@ -21,7 +21,7 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <div className="container mx-auto bg-orange-500">
+            <div className="container mx-auto ">
                 <h1 className="py-4 px-4 font-bold text-2xl ">Recently Listed:</h1>
                 {isWeb3Enabled ? (
                     <div>

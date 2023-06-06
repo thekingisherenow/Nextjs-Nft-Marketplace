@@ -83,7 +83,7 @@ export default function Home() {
     }
     return (
         <>
-            <main className="mx-auto bg-orange-500 flex  justify-center mt-10 items-center">
+            <main className="mx-auto  flex  justify-center mt-10 items-center">
                 <Form
                     onSubmit={approveAndList}
                     data={[
